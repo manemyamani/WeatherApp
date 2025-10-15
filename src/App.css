@@ -1,0 +1,26 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.addlocationbutton{
+  background-color:#157e18;
+}
+.addlocationbutton:hover{
+  background-color:#1a381b;
+  border-width: 1.5px;
+  border-color: white;
+}
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}

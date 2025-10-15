@@ -1,0 +1,39 @@
+.weatherCard {
+  background:transparent;
+  border: 2px solid #e2e4ec;
+  border-radius: 12px;
+  padding: 1rem;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  flex: 1 1 calc(20% - 1rem); /* 5 per row */
+  box-sizing: border-box;
+}
+
+.weatherCard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.2);
+}
+
+.updatedText {
+  font-size: 0.85rem;
+  color: #d1c9c9;
+  margin-top: 0.6rem;
+}
+
+.refreshbutton {
+  background: #4a6cf7;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-top: 0.8rem;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.refreshbutton:hover {
+  background: #324fd1;
+  transform: scale(1.05);
+}
